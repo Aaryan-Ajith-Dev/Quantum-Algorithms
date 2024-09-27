@@ -4,5 +4,8 @@
 ### List of Algorithms
 - Deutsch's Algorithm
 - CHSH game
+
+<!--
 - Simon's Algorithm
 - Naive Approximate Cloning
+-->
