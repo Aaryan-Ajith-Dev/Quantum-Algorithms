@@ -4,13 +4,13 @@
 ### List of Algorithms
 - Deutsch's Algorithm
 - CHSH game
-- Shors
+- Shor
     - Factoring
     - QFT
     - Order Finding
 - Circuit simulation (circuit.py)
 
-## Shors Algorithm
+## Shor's Algorithm
 - Implemented QFT from standard qiskit gates.
 - Implemented Order Finding which uses QFT and an external code for modular multiplication.
 - Further used order finding to implement Shor’s algorithm.
@@ -27,7 +27,8 @@ choosing 0 or 1 based on the probabilities obtained after partial trace).
 
 ### Notes
 The combined state of the system is stored directly as a tensor product without any additional optimizations.
-The operations on the system are implemented from scratch via matrix multiplications and may take time.
+The operations on the system are implemented from scratch via matrix multiplications and may take time for larger quantum systems.
 
 ## Reference for Modular Multiplication
+Test_Mult.py from: 
 https://github.com/tiagomsleao/ShorAlgQiskit/tree/master
