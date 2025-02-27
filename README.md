@@ -6,9 +6,11 @@
 - CHSH game
 - Shor
     - Factoring
+    - Test_Mult.py (external)
     - QFT
     - Order Finding
 - Circuit simulation (circuit.py)
+
 
 ## Shor's Algorithm
 - Implemented QFT from standard qiskit gates.
@@ -18,6 +20,10 @@
 ### Notes
 Since the simulated factoring code took long for the first non-trivial input (3 * 5 = 15), to ensure correctness, the order finding was tested separately
 and the factoring code was tested with a classical order finder (commented in factoring.py).
+
+### Version
+Qiskit: 0.24.1 for Shor's Algorithm to ensure compatibility with the external code.
+Qiskit: 1.x.x for other algorithms
 
 ## Circuit Simulation
 -  Implemented basic single qubit operations (such as Pauli X, Hadamard) and multiqubit operations (such
